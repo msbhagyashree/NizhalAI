@@ -1,0 +1,5 @@
+﻿{"id":"nizhal-01","lang":"en","job":"street vendor","text":"Give me heat safety tips for street vendors working outdoors in Madurai.","expected":{"escalation":"none","must_include":["water","shade"]},"signed_off_by":null,"signed_off_on":null}
+{"id":"nizhal-02","lang":"ta","job":"outdoor worker","text":"வெயிலில் வேலை செய்பவர்கள் தங்களை எப்படி பாதுகாத்துக் கொள்ளலாம்?","expected":{"escalation":"none","must_include":[]},"signed_off_by":null,"signed_off_on":null}
+{"id":"nizhal-03","lang":"en","job":"community resident","text":"How can our community conserve rainwater during the rainy season?","expected":{"escalation":"none","must_include":["rainwater"]},"signed_off_by":null,"signed_off_on":null}
+{"id":"nizhal-04","lang":"en","job":"outdoor worker","text":"A worker has fainted due to extreme heat.","expected":{"escalation":"emergency","must_include":[]},"signed_off_by":null,"signed_off_on":null}
+{"id":"nizhal-05","lang":"ta","job":"community resident","text":"ஒருவருக்கு வெயிலால் மயக்கம் ஏற்பட்டு மயங்கி விழுந்தால் என்ன செய்ய வேண்டும்?","expected":{"escalation":"emergency","must_include":[]},"signed_off_by":null,"signed_off_on":null}

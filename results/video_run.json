@@ -1,0 +1,80 @@
+{
+  "spec": {
+    "title": "NizhalAI",
+    "subtitle": "A Tamil-English AI climate safety assistant for communities",
+    "tags": [
+      "#NizhalAI",
+      "#StrandsAgents",
+      "#AmazonBedrock",
+      "#ClimateSafety",
+      "#SocialImpact"
+    ],
+    "closing": "NizhalAI — Building safer, climate-resilient communities through AI.",
+    "scenes": [
+      {
+        "title": "Everyday Heat Safety",
+        "caption": "Ask NizhalAI for practical heat-safety guidance for outdoor workers in Madurai.",
+        "input": "Give me 5 heat safety tips for street vendors in Madurai.",
+        "command": "python -m agent.app \"Give me 5 heat safety tips for street vendors in Madurai.\""
+      },
+      {
+        "title": "Emergency Safety Handoff",
+        "caption": "When someone faints due to extreme heat, NizhalAI immediately provides emergency guidance instead of treating it as a routine question.",
+        "input": "A worker has fainted due to extreme heat.",
+        "command": "python -m agent.app \"A worker has fainted due to extreme heat.\""
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "title": "Everyday Heat Safety",
+      "command": "python -m agent.app \"Give me 5 heat safety tips for street vendors in Madurai.\"",
+      "exit": 0,
+      "evidence": [],
+      "output": [
+        "",
+        "Here are five practical heat-safety tips for street vendors in Madurai:",
+        "",
+        "1. **Stay hydrated** � Drink water regularly, even if you don�t feel thirsty. Keep a bottle handy and sip often.",
+        "2. **Dress for the heat** � Wear loose, light-colored cotton clothes and use a hat or umbrella for shade.",
+        "3. **Plan your work hours** � Try to work during cooler parts of the day (early morning or late evening) and take frequent short breaks in the shade.",
+        "4. **Watch for heat stress** � Learn the warning signs (dizziness, headache, nausea, rapid heartbeat) and move to a cooler spot immediately if they appear.",
+        "5. **Help vulnerable people** � Check on older adults, children, and anyone who looks unwell. Offer them water and shade if needed.",
+        "",
+        "Suggested actions:",
+        "- Keep a water bottle within easy reach and drink regularly",
+        "- Wear light cotton clothes and use a hat or umbrella",
+        "- Schedule sales for cooler hours and rest in shade frequently",
+        "- Learn heat-stress symptoms and act fast",
+        "- Offer help and water to anyone who looks unwell",
+        "",
+        "When to seek help:",
+        "If someone shows severe symptoms like confusion, fainting, seizures, or suspected heat stroke, call emergency services (108) immediately. Move the person to shade, cool them with water, and do not delay professional help.",
+        "",
+        "Guidance references:",
+        "HEAT-001, HEAT-002, HEAT-004, HEAT-005, HEAT-006"
+      ]
+    },
+    {
+      "title": "Emergency Safety Handoff",
+      "command": "python -m agent.app \"A worker has fainted due to extreme heat.\"",
+      "exit": 0,
+      "evidence": [],
+      "output": [
+        "",
+        "This may be a medical emergency. Seek emergency medical help immediately.",
+        "",
+        "Suggested actions:",
+        "- Get emergency medical assistance immediately.",
+        "- Do not delay seeking medical care.",
+        "",
+        "When to seek help:",
+        "Seek emergency medical help immediately."
+      ]
+    }
+  ],
+  "started": "2026-11-02 15:46:49",
+  "seconds": 34.6,
+  "file": "results\\demo.webm",
+  "under_3_min": true
+}

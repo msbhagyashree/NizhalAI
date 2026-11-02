@@ -1,0 +1,26 @@
+﻿{
+  "title": "NizhalAI",
+  "subtitle": "A Tamil-English AI climate safety assistant for communities",
+  "tags": [
+    "#NizhalAI",
+    "#StrandsAgents",
+    "#AmazonBedrock",
+    "#ClimateSafety",
+    "#SocialImpact"
+  ],
+  "closing": "NizhalAI — Building safer, climate-resilient communities through AI.",
+  "scenes": [
+    {
+      "title": "Everyday Heat Safety",
+      "caption": "Ask NizhalAI for practical heat-safety guidance for outdoor workers in Madurai.",
+      "input": "Give me 5 heat safety tips for street vendors in Madurai.",
+      "command": "python -m agent.app \"Give me 5 heat safety tips for street vendors in Madurai.\""
+    },
+    {
+      "title": "Emergency Safety Handoff",
+      "caption": "When someone faints due to extreme heat, NizhalAI immediately provides emergency guidance instead of treating it as a routine question.",
+      "input": "A worker has fainted due to extreme heat.",
+      "command": "python -m agent.app \"A worker has fainted due to extreme heat.\""
+    }
+  ]
+}

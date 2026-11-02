@@ -1,0 +1,51 @@
+﻿{
+  "version": "2026-11-02",
+  "note": "Curated climate-safety guidance for NizhalAI. Advice is paraphrased from official Indian government sources.",
+  "sources": {
+    "IMD_HEAT": "India Meteorological Department, Dos and Don'ts for Heat Wave: https://mausam.imd.gov.in/chennai/mcdata/dos%26donts.pdf",
+    "IMD_HEAT_STRESS": "India Meteorological Department, Heat Stress: Do's and Don'ts: https://mausam.imd.gov.in/Forecast/mcmarq/mcmarq_data/heatstress_.pdf",
+    "CGWB_WATER": "Central Ground Water Board, FAQ on rainwater harvesting and groundwater recharge: https://cgwb.gov.in/old_website/faq.html"
+  },
+  "items": [
+    {
+      "id": "HEAT-001",
+      "source": "IMD_HEAT",
+      "text": "Drink sufficient water regularly during hot weather, even when you do not feel thirsty. People on fluid-restricted diets or with conditions affecting fluid intake should consult their doctor before increasing fluids."
+    },
+    {
+      "id": "HEAT-002",
+      "source": "IMD_HEAT",
+      "text": "Wear lightweight, light-coloured, loose cotton clothing. When outdoors, protect your head with a hat, cloth or umbrella."
+    },
+    {
+      "id": "HEAT-003",
+      "source": "IMD_HEAT",
+      "text": "Take extra care of older adults, children and people who are ill, as they are more vulnerable to excessive heat."
+    },
+    {
+      "id": "HEAT-004",
+      "source": "IMD_HEAT",
+      "text": "Outdoor workplaces should provide cool drinking water, shaded resting areas and first-aid supplies. Schedule strenuous work during cooler hours and provide frequent rest breaks."
+    },
+    {
+      "id": "HEAT-005",
+      "source": "IMD_HEAT_STRESS",
+      "text": "Common signs of heat stress include dizziness, headache, weakness, excessive sweating, rapid heartbeat, nausea and muscle cramps. Move to a cooler or shaded place, stop strenuous activity and seek medical advice if symptoms persist or worsen."
+    },
+    {
+      "id": "HEAT-006",
+      "source": "IMD_HEAT",
+      "text": "If someone faints or shows signs of confusion, seizures or suspected heat stroke, seek emergency medical help immediately. Move the person to a cooler place and begin cooling them while waiting for medical assistance. Do not delay emergency care."
+    },
+    {
+      "id": "WATER-001",
+      "source": "CGWB_WATER",
+      "text": "Rainwater harvesting collects and stores rainwater or helps recharge groundwater. Rooftop rainwater harvesting can use suitable recharge pits, trenches or wells."
+    },
+    {
+      "id": "WATER-002",
+      "source": "CGWB_WATER",
+      "text": "Rainwater harvesting systems require appropriate design and maintenance. Keep collection areas clean and filter rainwater before directing it into a recharge well."
+    }
+  ]
+}
