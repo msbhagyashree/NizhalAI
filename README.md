@@ -1,4 +1,4 @@
-﻿# NizhalAI ðŸŒ¿
+﻿# NizhalAI 
 
 ### A Tamil-English AI Assistant for Community Climate Preparedness
 
@@ -6,7 +6,7 @@ NizhalAI is an AI-powered community climate-safety assistant designed to help pe
 
 Built using **Python, AWS Strands Agents, Amazon Bedrock Nova 2 Lite, and Streamlit**, NizhalAI aims to make practical climate-safety guidance accessible through English and Tamil.
 
-## ðŸŒ Problem Statement
+##  Problem Statement
 
 Communities facing extreme heat and water stress need accessible, understandable, and actionable information.
 
@@ -14,7 +14,7 @@ Language barriers, limited awareness, and a lack of practical preparedness guida
 
 NizhalAI addresses this challenge through a conversational AI assistant that provides community-focused climate guidance.
 
-## âœ¨ Key Features
+## Key Features
 
 - **Heat Risk Analyzer:** Provides preliminary heat-risk screening using temperature, humidity, outdoor work duration, and vulnerability factors.
 - **Heat Safety Assistant:** Offers practical guidance for heat exposure, hydration, protective clothing, and outdoor work safety.
@@ -23,7 +23,7 @@ NizhalAI addresses this challenge through a conversational AI assistant that pro
 - **Tamil-English Support:** Supports climate-safety interactions in English and Tamil.
 - **Emergency Escalation:** Detects selected emergency-related phrases and provides immediate safety guidance instead of proceeding with a normal AI response.
 
-## ðŸ› ï¸ Technology Stack
+## Technology Stack
 
 | Component | Technology |
 |---|---|
@@ -35,7 +35,7 @@ NizhalAI addresses this challenge through a conversational AI assistant that pro
 | Data format | JSON |
 | Validation | Pydantic |
 
-## ðŸ—ï¸ Project Structure
+## Project Structure
 
 ```text
 NizhalAI/
@@ -55,7 +55,7 @@ NizhalAI/
 â””â”€â”€ README.md
 ```
 
-## âš™ï¸ Installation and Setup
+##  Installation and Setup
 
 ### Prerequisites
 
@@ -106,7 +106,7 @@ python -m streamlit run app/app.py
 
 Open the local URL displayed in your terminal to interact with NizhalAI.
 
-## ðŸ§  How It Works
+##  How It Works
 
 1. The user submits a climate-related question through the Streamlit interface.
 2. The application identifies the language and checks for selected emergency-related phrases.
@@ -114,21 +114,21 @@ Open the local URL displayed in your terminal to interact with NizhalAI.
 4. Amazon Bedrock powers the conversational response.
 5. The application presents the answer, recommended actions, escalation guidance, and relevant guidance references.
 
-## ðŸ“š Guidance Sources
+## Guidance Sources
 
 The current guidance dataset includes material from:
 
 - India Meteorological Department (IMD) â€” Heat safety and heat-stress guidance.
 - Central Ground Water Board (CGWB) â€” Rainwater harvesting guidance.
 
-## âš ï¸ Safety and Limitations
+##  Safety and Limitations
 
 - Heat-risk screening is an illustrative preliminary assessment, not an official IMD heat index or medically validated risk score.
 - NizhalAI does not replace official weather alerts, emergency services, or professional medical advice.
 - Emergency phrase detection covers selected English and Tamil expressions; it cannot guarantee detection of every emergency.
 - The application does not claim to provide live weather conditions or verified live alerts unless connected to an authoritative live data source.
 
-## ðŸŽ¯ Project Vision
+##  Project Vision
 
 NizhalAI aims to make climate preparedness more accessible by combining AI assistance, local-language interaction, and practical community-focused guidance.
 
